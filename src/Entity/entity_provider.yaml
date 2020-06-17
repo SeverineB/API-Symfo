@@ -1,0 +1,6 @@
+security:
+    providers:
+        user_provider:
+            entity:
+                class: App\Domain\User\Model\User
+                property: email
